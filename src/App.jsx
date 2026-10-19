@@ -19,8 +19,8 @@ import {
 } from 'lucide-react';
 
 const WA_NUMBER = "6285261694477"; // Ganti dengan nomor WhatsApp aktif
-const LOCATION_NAME = "Medan, Sumatera Utara";
-const GOOGLE_MAPS_EMBED = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127393.24949581788!2d98.60367355!3d3.59519565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131cc1c3eb2fd%3A0x231d56c91f3650e8!2sMedan%2C%20Medan%20City%2C%20North%20Sumatra!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid";
+const LOCATION_NAME = "Jl. Rw. Cangkuk I ujung No.10 A, Tegal Sari Mandala III, Kec. Medan Denai, Kota Medan";
+const GOOGLE_MAPS_EMBED = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.87703668771042!2d98.71272804096961!3d3.5799872632214775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303130fd7c273007%3A0x6a5b8d3caa34b0f6!2sJl.%20Rw.%20Cangkuk%20I%20ujung%20No.10%20A%2C%20Tegal%20Sari%20Mandala%20III%2C%20Kec.%20Medan%20Denai%2C%20Kota%20Medan%2C%20Sumatera%20Utara%2020227!5e0!3m2!1sid!2sid!4v1792379760052!5m2!1sid!2sid";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -450,7 +450,7 @@ export default function App() {
                   <div>
                     <h4 className="font-semibold text-slate-300 text-sm">Alamat Pangkalan</h4>
                     <p className="text-white font-medium mt-1 text-sm leading-relaxed">
-                      Jl. Gatot Subroto No. 123, Medan Petisah, Kota Medan, Sumatera Utara 20118
+                      Jl. Rw. Cangkuk I ujung No.10 A, Tegal Sari Mandala III, Kec. Medan Denai, Kota Medan
                     </p>
                   </div>
                 </div>
